@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E7E7"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/inna"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="15dp"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/innaYalla"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="20dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yalla"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Official Music Video"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--==================================================-->
+
+        <LinearLayout
+            android:id="@+id/innaHeaven"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Heaven"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Official Music Video"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/innaRuleta"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ruleta"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Official Music Video"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/innaAmazing"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amazing"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Official Music Video"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/innaCola"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cola Song"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Official Music Video"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/innaGimme"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gimme Gimme"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Official Music Video"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/innaMaza"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Maza"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Official Music Video"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/innaNirvana"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nirvana"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Official Music Video"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/innaSean"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sean Paul"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Official Music Video"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/innaTuManera"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tu Manera"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Official Music Video"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

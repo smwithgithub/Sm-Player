@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E7E7"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/khs"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="15dp"
+
+            />
+
+
+        <LinearLayout
+            android:id="@+id/khsCounting"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="20dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Counting Stars"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Alex Goot, Chrissy Costanza, KHS"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--==================================================-->
+
+        <LinearLayout
+            android:id="@+id/khsLetMe"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Let Me Love You"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Justin Bieber - ATC, Alex Goot, KHS Cover"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/khsSorry"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sorry"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Justin Bieber-Against The Current,Alex Goot,KHS Cover"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/khsBeauty"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Beauty And A Beat"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Justin Bieber-Alex Goot, Chrissy Costanza Cover"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/khsStayHigh"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Stay High"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tove Lo - Against The Current Cover"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/khsStay"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Stay"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Justin Bieber (Alex Goot, First To Eleven, KHS Cover)"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/khsPerfect"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Perfect"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="One Direction - GAC, KHS Cover"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/khsHalsey"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Halsey"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Sam Tsui, Shannon K, KHS Cover"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/khsSomething"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Something Just Like This"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Chainsmokers, Coldplay | Sam Tsui, KHS COVER"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/khsDusk"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dusk Till Dawn"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Zayn ft. Sia | Kirsten Collins, KHS Cover"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

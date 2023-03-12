@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E7E7"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/alan"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="15dp"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/alanFaded"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="20dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Faded"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="faded_by_alan_walker"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--==================================================-->
+
+        <LinearLayout
+            android:id="@+id/alanAlone"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alone"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Alan Walker_Ava Max - Alone"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/alanIgnite"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ignite"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Alan Walker Live Performance at VG-Lista 2018"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/alanDarkside"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Darkside"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="feat. Au/Ra and Tomine Harket"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/alanFalling"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Falling Angels"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Alan Walker -New Song 2022"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/alanParadise"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paradise"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Alan Walker, K-391, Boy in Space"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/alanIselin"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Iselin Solheim"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="official video from Bisi Music"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/alanSpectre"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Spectre"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="by Alan Walker"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/alanLost"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#E0DFDF"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lost Control"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Official Music Video"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--===============================================-->
+
+        <LinearLayout
+            android:id="@+id/alanUnity"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="#CDCDCD"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/video"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Unity"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Official Music Video"
+                    android:textSize="15dp"
+                    android:textColor="#4C4B4B"
+                    android:textStyle="italic"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
